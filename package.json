@@ -1,0 +1,31 @@
+{
+  "name": "portfolio-api",
+  "version": "1.0.0",
+  "description": "api for portfolio webapp",
+  "main": "app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@dage",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "compression": "^1.7.4",
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "express-async-error": "0.0.2",
+    "helmet": "^3.20.0",
+    "joi": "^14.3.1",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.6.8",
+    "winston": "^3.2.1",
+    "winston-mongodb": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  }
+}
